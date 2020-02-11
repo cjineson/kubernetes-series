@@ -2,8 +2,8 @@
 
 echo "preparing..."
 export GCLOUD_PROJECT=$(gcloud config get-value project)
-export INSTANCE_REGION=us-central1
-export INSTANCE_ZONE=us-central1-a
+export INSTANCE_REGION=europe-west1
+export INSTANCE_ZONE=europe-west1-b
 export PROJECT_NAME=helm
 export CLUSTER_NAME=${PROJECT_NAME}-cluster
 export CONTAINER_NAME=${PROJECT_NAME}-container
